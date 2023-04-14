@@ -7,7 +7,7 @@
     <title>Simple Travel Site</title>
     <link rel="stylesheet" href="css/styles.css" />
   </head>
-  <body style="margin-bottom: 500px">
+  <body style="margin-bottom: 20em">
     <header>
       <a href="HTML-elements.html">Home</a>
       <a href="photo-gallery.html" target="_blank">Photo Gallery</a>
@@ -24,16 +24,15 @@
 
       <h2>Paragraphs</h2>
       <div title="Introduction">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet iusto omnis unde voluptatem exercitationem
-        impedit optio quis delectus, totam consectetur ad, fuga vitae vero, consequuntur illo minima tempore? Quaerat,
-        in?
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet iusto omnis unde voluptatem exercitationem impedit optio quis
+        delectus, totam consectetur ad, fuga vitae vero, consequuntur illo minima tempore? Quaerat, in?
       </div>
 
       <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam maxime consectetur voluptatem possimus odio
-        quibusdam temporibus at quod iste nobis iure rem aut, deserunt quae reprehenderit quas numquam ipsum cum! Lorem
-        ipsum dolor sit amet consectetur adipisicing elit. Maiores optio accusamus odio quis aliquid aliquam sapiente
-        velit. Doloremque itaque et labore obcaecati ut quia non, enim aliquid ratione magni consequuntur.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laboriosam maxime consectetur voluptatem possimus odio quibusdam
+        temporibus at quod iste nobis iure rem aut, deserunt quae reprehenderit quas numquam ipsum cum! Lorem ipsum dolor sit amet
+        consectetur adipisicing elit. Maiores optio accusamus odio quis aliquid aliquam sapiente velit. Doloremque itaque et labore
+        obcaecati ut quia non, enim aliquid ratione magni consequuntur.
       </p>
 
       <p>This is text added from my laptop</p>
@@ -74,7 +73,6 @@
       <hr />
 
       <h2>Table</h2>
-
       <table>
         <tr class="row" id="header-row">
           <th>A</th>
@@ -104,8 +102,60 @@
       span content <span>next content</span>
 
       <hr />
+
+      <h2>Forms</h2>
+      <div>
+        <div>
+          <form>
+            <label for="email-input">Email</label>
+            <input id="email-input" type="text" placeholder="Email" title="enter email" />
+
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" placeholder="Password" />
+
+            <button>Go</button>
+          </form>
+        </div>
+        <div>
+          <input type="checkbox" name="rememberMe" id="rememberMe" />
+          <label for="rememberMe">Remember Me?</label>
+        </div>
+      </div>
+
+      <hr />
+
+      <h2>More Forms</h2>
+      <div>
+        <form>
+          <label for="department">Department</label>
+          <select name="department" id="department-drop-down">
+            <option value="select">Select Department...</option>
+            <option value="hr">Human Resources</option>
+            <option value="cs">Customer Service</option>
+            <option value="pr">Public Relations</option>
+            <option value="support">Customer Support</option>
+          </select>
+        </form>
+      </div>
+      <label for="message">message</label>
+      <textarea style="margin-top: 16px" name="message" id="message" cols="30" rows="10">Type your message here</textarea>
+
+      <hr />
+
+      <h2>Radio Buttons</h2>
+      <p>tell us how you heard about us!</p>
+      <div style="display: block">
+        <input type="radio" name="referral-source" id="referral-source" />
+        <label for="internet">Internet Ad</label>
+        <input type="radio" name="referral-source" id="referral-source" />
+        <label for="television">Television Ad</label>
+        <input type="radio" name="referral-source" id="referral-source" />
+        <label for="social-media">Social Media</label>
+      </div>
     </main>
 
-    <footer></footer>
+    <footer style="margin-top: 20px">
+      <a href="index.html" target="_blank">Test Link</a>
+    </footer>
   </body>
 </html>
